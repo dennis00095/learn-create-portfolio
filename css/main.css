@@ -1,54 +1,24 @@
 body{
-    margin-block: 200px;
-   margin-left: 100px;
-   margin-right: 100px;
-   margin-top: 100px;
-   margin-bottom: 100px;
-   background-color: rgba(4, 7, 1, 0.911);
+    background-color: rgb(52, 52, 58);
 }
-.links{
-  text-align: right;
-  font-size: 30px;
-  font-weight: bold;
-  
-  
-    
+#greeting{
+    color: yellowgreen;
 }
-.image{
- text-align: center;
- height: 150px;
-    
-}
-#me{
-    border-radius: 100%;
-   
-}
-#home{
-    text-align: center;
-    color: yellow;
-}
-.hobs{
-    text-align: end;
-    color: blanchedalmond;
-
-}
-.lyks{
-    text-align: start;
-    color: blanchedalmond;
-
-}
-.pro{
-    color: cornsilk;
-
-}
-.we{
-color: darkgrey;
-}
-.fm{
-    background-color: slategray;
+.name{
+    color: turquoise;
 }
 .btn{
-    background-color: gray;
-    color: black;
-    
+    background-color: slateblue;
+}
+.navbar-brand{
+    background-color: mediumspringgreen;
+}
+
+#greet{
+    color: yellow;
+    text-align: center;
+    background-color: skyblue;
+}
+.labels{
+    color: snow;
 }

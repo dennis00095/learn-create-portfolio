@@ -1,74 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome To My Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
-<body id="bg-img">
-    <header>
-        <nav class="links">
-                    <button class="btn"><a href="index.html">Home</a></button><br>
-                    <button class="btn"><a href="About.html">About Me</a></button><br>
-                    <button class="btn"><a href="work.html">Work</a></button><br>
-                    <button class="btn"><a href="contact.html">Contact</a></button><br>
-        </nav>
-        <div class="image"><img src="./images/IMG-20181003-WA0019.jpg" id="me" width="300px" height="200px" alt=""></div>
-        <main id="home">
-      
-            <h1 class="lg-heading">
-              Dennis
-              <span class="text-secondary">Mwongela</span>
-            </h1>
-            <h2 class="sm-heading">
-              Web Developer, Programmer, Designer & Entrepreneur
-            </h2>
-            <div class="icons">
-              <a href="#!">
-                <i class="fab fa-twitter fa-2x"></i>
-              </a>
-              <a href="#!">
-                <i class="fab fa-facebook fa-2x"></i>
-              </a>
-              <a href="#!">
-                <i class="fab fa-linkedin fa-2x"></i>
-              </a>
-              <a href="#!">
-                <i class="fab fa-github fa-2x"></i>
-              </a>
-            </div>
-          </main>
-    </header>
-    
-
-    <h2 class="hobs">Hobbies</h2>
-<p class="hobs">
-    
-    Painting <br>
-    Dancing <br>
-    Reading, Writing <br>
-    Computer <br>
-    </p>
-    <h2 class="lyks">likes</h2>
-    <p class="lyks">
-        
-            I love eating ice-cream <br>
-            I adore sun-bathing <br>
-            I'm very fond of chocolate <br>
-            I like swimming <br>
-        
-        </p>
-
-   
-
-    
- 
-
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">D.M.T</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   
-    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><button class="btn"> Home </button><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html"><button class="btn"> About </button><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><button class="btn"> Portfolio </button><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html"><button class="btn"> Contact </button><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><button class="btn"> My Work </button><span class="sr-only">(current)</span></a>
+        </li>     
+      </ul>
+    </div>
+  </nav>
+  <!---first section-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <img src="/images/portrait.JPG" height="400" width="400" class="rounded-circle" alt="">
+        
+      </div>
+      <div class="col-sm"><br><br><br>
+
+        <h1 id="greeting">Hi</h1>
+        <p class="name">My name is Dennis, I'm a Nairobi based freelancer. <br>
+            I also work remotely on projects for clients from <br>
+            all over the world. <br><br>
+          
+          I have wide set of skills ranging from, Design to, Angular, <br>
+          react, HTML, CSS, JavaScript, Bootstrap and PWAs.
+          </p><br><br>
+          <!--buttons for videos and services-->
+
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-secondary">Watch my Skills</button>
+              
+            </div>
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="btn-group ml-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-secondary">My Services</button>
+                
+              </div>
+          
+
+
+
+      
+        
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+<!---footer-->
+<div><br>
+  <br>
+  <br>
+  <br>
+  
+      <footer>
+          <h1 id="greet">footer</h1>
+      </footer>
+  </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>
